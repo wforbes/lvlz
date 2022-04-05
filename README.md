@@ -9,7 +9,7 @@ No major functionality implemented yet.
 
 ## Try the prototype
 
-Last year this project was started with Vue2/Vuetify and PHP
+Last year this project was started with Vue2/Vuetify and PHP. The goal now is to rebuild the project with Vue3 and Node.js, deployed in containers to a cloud provider.
 
 Prototype: [levelz.app](https://levelz.app) and [lvlz.app](https://lvlz.app)
 
