@@ -14,7 +14,7 @@ const toast = () => {
 import { defineComponent } from 'vue'
 import { ElMessage } from "element-plus";
 export default defineComponent({
-	name: "Hello World",
+	name: "HelloWorld",
 	props: {
 		msg: { type: String, required: true }
 	},

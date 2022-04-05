@@ -15,7 +15,8 @@
 		"~/*": ["src/*"]
 	  },
 	  "skipLibCheck": true,
-	  "types": ["element-plus/global"]
+	  "types": ["element-plus/global"],
+	  "noImplicitAny": false
 	},
 	"include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
   }
