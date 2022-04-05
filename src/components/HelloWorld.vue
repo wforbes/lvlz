@@ -1,4 +1,5 @@
-<script setup lang="ts">
+<script lang="ts">
+/*
 import { ref } from "vue";
 import { ElMessage } from 'element-plus'
 
@@ -9,7 +10,27 @@ const input = ref("element-plus");
 const curDate = ref('')
 const toast = () => {
 	ElMessage.success('Hello')
-}
+}*/
+import { defineComponent } from 'vue'
+import { ElMessage } from "element-plus";
+export default defineComponent({
+	name: "Hello World",
+	props: {
+		msg: { type: String, required: true }
+	},
+	data() {
+		return {
+			count: 0,
+			input: "element-plus",
+			curDate: ""
+		};
+	},
+	methods: {
+		toast() {
+			ElMessage.success("Hello");
+		}
+	}
+})
 </script>
 
 <template>
