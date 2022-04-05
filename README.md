@@ -10,12 +10,14 @@ No major functionality implemented yet.
 ## Try the prototype
 
 Last year this project was started with Vue2/Vuetify and PHP
+
 Prototype: [levelz.app](https://levelz.app) and [lvlz.app](https://lvlz.app)
+
 Source code: [github.com/wforbes/levelz.app](https://github.com/wforbes/levelz.app)
 
 ## Project Composition
 
-- [https://vuejs.org/](Vue 3.0)
-- [https://vitejs.dev/](Vite)
-- [https://vuejs.org/guide/typescript/overview.html](TypeScript)
-- [https://element-plus.org/en-US/](Element Plus UI Framework)
+- [Vue 3.0](https://vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://vuejs.org/guide/typescript/overview.html)
+- [Element Plus UI Framework](https://element-plus.org/en-US/)
