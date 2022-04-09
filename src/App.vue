@@ -1,7 +1,5 @@
 <template>
-	<BaseHeader />
 	<div style="display: flex">
-		<BaseSide />
 		<router-view></router-view>
 	</div>
 </template>
