@@ -15,4 +15,28 @@ const router = createRouter({
   routes,
 });
 
+router.beforeEach((to, from, next) => {
+	// gather url path and remove the leading forward slash
+	let slug = to.path.replace(/(.*)\//, "");
+
+	document.title = "Lvlz ";
+
+	if (slug != "") {
+		// Title for pages is url path with
+		//	dashes converted to spaces, slashes converted to dashes
+		//	with spacing, each word uppercase
+		// Like: " - Test Cards - Sub Page - Sub Page2"
+		document.title +=
+			" - " +
+			slug
+				.replace("-", " ")
+				.replace("/", " - ")
+				.split(" ")
+				.map((s) => s.charAt(0).toUpperCase() + s.slice(1))
+				.join(" ");
+	}
+	next();
+	return;
+});
+
 export default router;
